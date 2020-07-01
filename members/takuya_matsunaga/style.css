@@ -193,6 +193,33 @@ div.base div.content .grid img.st {
 div.grid.lev1 {
   border: ;
 }
+div.grid.lev2 {
+  border: ;
+}
+div.grid.lev3 {
+  border: ;
+}
+div.grid.lev4 {
+  border: ;
+}
+div.grid.lev5 {
+  border: ;
+}
+div.grid.lev1::before {
+  content: "★☆☆☆☆";
+}
+div.grid.lev2::before {
+  content: "★★☆☆☆";
+}
+div.grid.lev3::before {
+  content: "★★★☆☆";
+}
+div.grid.lev4::before {
+  content: "★★★★☆";
+}
+div.grid.lev5::before {
+  content: "★★★★★";
+}
 a {
   text-decoration: none;
 }
