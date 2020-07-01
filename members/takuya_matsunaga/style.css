@@ -207,18 +207,23 @@ div.grid.lev5 {
 }
 div.grid.lev1::before {
   content: "★☆☆☆☆";
+  font-size: 2em;
 }
 div.grid.lev2::before {
   content: "★★☆☆☆";
+  font-size: 2em;
 }
 div.grid.lev3::before {
   content: "★★★☆☆";
+  font-size: 2em;
 }
 div.grid.lev4::before {
   content: "★★★★☆";
+  font-size: 2em;
 }
 div.grid.lev5::before {
   content: "★★★★★";
+  font-size: 2em;
 }
 a {
   text-decoration: none;
