@@ -266,3 +266,33 @@ div.fotter {
   text-align: center;
   z-index: 30;
 }
+div.base div.content div.title span.theading {
+  font-size: 2em;
+  border-bottom: solid 5px #9dfce1;
+}
+div.base div.content div.title span.theading span.en {
+  font-family: "Viana";
+  font-size: 3.1em;
+}
+div.base div.content div.title span.theading span.ja {
+  font-size: 2.5em;
+}
+div.base div.content div.title span.theading span span.sub {
+  font-size: 0.35em;
+}
+div.base div.content div table {
+  width: 85%;
+  border-collapse: collapse;
+  border-color: #9dfce1;
+}
+div.base div.content div.list table tr:first-of-type {
+  background-color: aquamarine;
+}
+div.base div.content div table tr td:first-of-type {
+  width: 3em;
+  text-align: center;
+}
+div.base div.content div table tr td:last-of-type {
+  width: 4em;
+  text-align: center;
+}
