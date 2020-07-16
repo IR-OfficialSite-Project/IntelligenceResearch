@@ -269,21 +269,25 @@ div.fotter {
 div.base div.content div.title span.theading {
   font-size: 2em;
   border-bottom: solid 5px #9dfce1;
+  text-align: center;
 }
 div.base div.content div.title span.theading span.en {
   font-family: "Viana";
-  font-size: 3.1em;
+  font-size: 4em;
 }
 div.base div.content div.title span.theading span.ja {
-  font-size: 2.5em;
+  font-size: 1.7em;
 }
-div.base div.content div.title span.theading span span.sub {
-  font-size: 0.35em;
+div.base div.content div.title span.theading span.en span.sub {
+  font-size: 0.25em;
+}
+div.base div.content div.title span.theading span.ja span.sub {
+  font-size: 0.65em;
 }
 div.base div.content div table {
   width: 85%;
   border-collapse: collapse;
-  border-color: #9dfce1;
+  border: 2px solid #9dfce1;
 }
 div.base div.content div.list table tr:first-of-type {
   background-color: aquamarine;
@@ -294,5 +298,16 @@ div.base div.content div table tr td:first-of-type {
 }
 div.base div.content div table tr td:last-of-type {
   width: 4em;
+  text-align: center;
+}
+
+div.lgcenter * {
+  margin-left: auto;
+  margin-right: auto;
+}
+div.base div.content div.title span.theading,
+div.base div.content div.title span.theading * {
+  display: block;
+  line-height: 1em;
   text-align: center;
 }
